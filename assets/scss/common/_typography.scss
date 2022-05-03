@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Proxima Nova Lt';
+  font-weight: 300;
+  font-style: normal;
+}
+//   color: $color-gray;
+
+//   font-family: $font-main;
+//   font-size: $font-size;
+// }
+
+h1 {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  font-size: 2.625rem;
+  line-height: 51px;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+}
+
+h4 {
+  font-family: 'Bebas Neue';
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 16px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  color: #FEE040;
+}
+
+li {
+  color: #333333;
+  list-style-type: none;
+  // list-style-image: url(/assets/icons/ok.svg);
+  font-family: 'Proxima Nova Rg';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.125rem;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+}
+
+// p {
+//   color: $color-gray;
+// }
+
+// a {
+//   text-decoration: none;
+
+//   color: $color-light;
+// }
+
+input:focus {
+  outline: none;
+}

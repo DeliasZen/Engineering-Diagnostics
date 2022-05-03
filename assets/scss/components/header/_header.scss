@@ -1,0 +1,246 @@
+.header {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
+  background: url(/assets/img/bg.jpg) no-repeat;
+  // min-height: 100%;
+  height: 768px;
+  padding: 20px 0;
+
+  &__container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  &-menu {
+    margin: 0rem auto 0;
+    display: flex;
+    justify-content: space-between;
+
+    &::after {
+      top: 80px;
+      left: 0px;
+      position: absolute;
+      content: '';
+      width: 100%;
+      // background: #fff;
+      // height: 2px;
+      opacity: 0.1;
+      border: 1px solid #FFFFFF;
+    }
+  }
+
+  &-wrapper{
+    display: flex;
+  }
+
+  &-burger {
+    height: 26px; //
+    width: 40px; //
+    position: relative;
+    span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      // margin: 4px;
+
+      &:nth-of-type(1) {
+        top: 4px;
+        width: 40px;
+        background-color: #fff;
+      }
+      &:nth-of-type(2) {
+        top: 14px;
+        width: 16px;
+        background-color: #FEE040;
+      }
+      &:nth-of-type(3) {
+        top: 14px;
+        left: 24px;
+        width: 16px;
+        background-color: #FEE040;
+      }
+      &:nth-of-type(4) {
+        top: 24px;
+        width: 40px;
+        background-color: #fff;
+      }
+    }
+  }
+
+  &-logo {
+    margin-left: 5rem;
+
+    &__link {
+
+    }
+  }
+  &-contacts {
+    display: flex;
+
+  }
+  &-mail {
+    margin-right: 7.8rem;
+    &__title{
+      color: #fff;
+      margin: 0;
+      font-size: .75rem;
+      line-height: .75rem;
+      letter-spacing: -0.3px;
+      opacity: 50%;
+    }
+    &__link{
+      margin-top: .5rem;
+      color: #FEE040;
+      font-size: 0.875rem;
+      line-height: 0.75rem;
+      letter-spacing: -0.2px;
+    }
+    &__icon{
+      margin-right: 0.4rem;
+  color: #FEE040;
+    }
+  }
+
+  &-number {
+    margin-top: -1.2rem;
+    margin-left: 1rem;
+    &__title{
+      color: #fff;
+      margin-bottom: 0.3rem;
+      font-size: .75rem;
+      line-height: .75rem;
+      letter-spacing: -0.3px;
+      opacity: 50%;
+      text-align: right;
+    }
+    &__icon{
+      padding-right: 7px;
+    }
+    &__phone{
+      margin-top: 0;
+      color: #fff;
+      font-family: 'Proxima Nova Rg';
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.25rem;
+      line-height: 24.36px;
+    }
+  }
+
+
+  &-content {
+    margin-top: 8rem;
+    // margin-left: 7.5rem;
+    &-wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  &-left {
+    margin: -0.6rem 0rem 0 0rem;
+    // width: 55%;
+
+    &__title {
+      margin: 0;
+      max-width: 570px;    }
+
+    &__subtitle{
+      width: 370px;
+      color: #fff;
+      font-size: 1.25rem;
+      line-height: 34px;
+      opacity: 0.7;
+      font-weight: 600;
+    }
+  }
+
+  &-right {
+
+    &__button {
+      height: 70px;
+      width: 340px;
+      border-radius: 2px;
+      background-color: #FEE040;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Gilroy';
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 0.75rem;
+      line-height: 15px;
+      text-transform: uppercase;
+    }
+
+    &__subtitle {
+      font-size: 0.9375rem;
+      color: #FFFFFF;
+      line-height: 28px;
+      width: 340px;
+    }
+
+    &__icon {
+
+    }
+  }
+
+  &-bot {
+    display: flex;
+    justify-content: space-between;
+    &__features {
+      display: flex;
+      gap: 100px;
+    }
+
+    &__video {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      background-image: url(/assets/icons/stamp+\ 2.svg);
+
+
+
+      .video-img {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        border-radius: 100px;
+      }
+      .video-play {
+        width: 20px;
+        height: 23px;
+        position: absolute;
+        top: 110px;
+        left: 100px;
+        filter: invert(88%) sepia(14%) saturate(1954%) hue-rotate(355deg) brightness(100%) contrast(105%);
+      }
+    }
+  }
+
+  .features-item {
+    margin-top: 15rem;
+    display: flex;
+    &__img {
+
+    }
+
+    &__subtitle {
+      padding-left: 10px;
+      font-family: 'Proxima Nova Lt';
+      font-weight: 600;
+      color: #FFFFFF;
+      width: 190px;
+      line-height: 28px;
+      letter-spacing: -0.5px;
+      font-size: 1.25rem;
+    }
+  }
+
+}

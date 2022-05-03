@@ -1,0 +1,123 @@
+.services {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background: url(/assets/img/patrick-tomasso-89367-unsplash.png) no-repeat;
+
+  // height: 500px; //
+  
+  &__overlay{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 78, 134, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    span {
+        // top: 80px;
+        // left: 80px;
+        position: absolute;
+        content: '';
+        height: 100%;
+        // background: #fff;
+        // height: 2px;
+        opacity: 0.1;
+        border: 1px solid #FFFFFF;
+      &:nth-last-of-type(1) {
+        left: 12.5%;
+      };
+      &:nth-last-of-type(2) {
+        left: 38%;
+      };
+      &:nth-last-of-type(3) {
+        right: 37%
+      };
+      &:nth-last-of-type(4) {
+        right: 12.5%;
+      };
+    }
+  }
+
+  &__container{
+    z-index: 2;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+  }
+
+  &-info{
+    text-align: center;
+    position: relative;
+    &__title {
+    }
+
+    &__subtitle{
+      color: #fff;
+    }
+  }
+
+  &-slider {
+    // overflow-y: hidden;
+    position: relative;
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+
+    ///////////////////
+    will-change: transform;
+    transform: translate3d(-0.356%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;/////////
+  }
+}
+
+.slider {
+
+  &-item{
+    
+    &__image{
+      width: 400px;
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0px 3px 50px rgba(0, 0, 0, .3);
+      
+      img {
+        position: absolute;
+        background-position: center;
+
+      }
+    }
+
+    &__title{
+      padding-top: 30px;
+      color: #FFFFFF;
+      font-family: 'Proxima Nova Th';
+      font-weight: 800;
+      font-size: 1.5rem;
+      line-height: 28px;
+      letter-spacing: -0.5px;
+    }
+
+    &__description{
+      padding-top: 20px;
+      text-align: left;
+      color: #FFFFFF;
+      opacity: 0.7;
+      font-family: 'Proxima Nova Lt';
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      line-height: 26px;
+    }
+
+    &__button{
+
+    }
+  }
+}
