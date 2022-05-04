@@ -1,8 +1,16 @@
 .steps {
   &-about {
+    @media screen and (max-width: 767px) {
+      padding: 0.1rem 0rem 2.3rem;
+  }
     background-color: #fff;
     padding: 0.1rem 0rem 5.3rem;
     &__title {
+      @media screen and (max-width: 767px) {
+        margin-top: 2rem;
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
       color: transparent;
       background-clip: text;
       background-image:  linear-gradient(to bottom, #60B6FF, rgba(0, 78, 134, 0.8));
@@ -14,6 +22,8 @@
     }
 
     &__subtitle {
+      padding: 0 1.275rem 0 1.275rem;
+    }
       color: #505050;
       font-size: 1.25rem;
       line-height: 28px;
@@ -21,12 +31,15 @@
       letter-spacing: 0.02px;
     }
   }
-}
+
 .step {
   &-wrapper {
     display: flex;
   }
   &-image {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
     width: 100%;
     max-width: 960px;
     height: 441px;
@@ -35,6 +48,9 @@
     position: relative;
   }
   &-one {
+    @media screen and (max-width: 767px) {
+      padding: 1rem 1.5rem;
+  }
     width: 100vh;
     max-width: 100%;
     position: relative;
@@ -46,6 +62,10 @@
       margin-bottom: 0;
 
       >span {
+        @media screen and (max-width: 767px) {
+          top: 50px;
+          left: 40px;
+      }
         position: absolute;
         left: 70px;
         top: 81px;
@@ -58,6 +78,9 @@
       }
     }
     &__description {
+      @media screen and (max-width: 767px) {
+        width: 100%;
+    }
       width: 450px;
       color: #333333;
       font-family: 'Proxima Nova Lt';
@@ -86,6 +109,9 @@
 
     }
       &__autor {
+        @media screen and (max-width: 767px) {
+          margin: 0;
+      }
         margin: 1.25rem 0 0 6.3rem;
         font-family: 'Proxima Nova Th';
         font-weight: 800;

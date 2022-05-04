@@ -22,6 +22,14 @@ h1 {
   font-size: 2.625rem;
   line-height: 52px;
   letter-spacing: -0.5px;
+  @media screen and (max-width: 1279px) and (min-width: 768px) {
+    font-size: 1.8rem;
+    line-height: 36px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
 }
 
 h2 {
@@ -31,6 +39,14 @@ h2 {
   font-size: 2rem;
   line-height: 42px;
   letter-spacing: -0.5px;
+  @media screen and (max-width: 1279px) and (min-width: 768px) {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 1.2rem;
+    line-height: 26px;
+  }
 }
 
 h3 {
@@ -39,6 +55,12 @@ h3 {
   font-size: 1.5rem;
   line-height: 34px;
   letter-spacing: -0.5px;
+  @media screen and (max-width: 1279px) and (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 1.1rem;
+  }
 }
 
 h4 {
@@ -49,6 +71,12 @@ h4 {
   letter-spacing: 20px;
   text-transform: uppercase;
   color: #FEE040;
+  @media screen and (max-width: 1279px) and (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 }
 
 li {
@@ -59,12 +87,15 @@ li {
   font-size: 1.125rem;
   letter-spacing: -0.6px;
   line-height: 1.875rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 }
 
 input:focus {
   outline: none;
 }
 
-// ::-webkit-scrollbar {
-// display: none;
-//  }
+::-webkit-scrollbar {
+display: none;
+ }
