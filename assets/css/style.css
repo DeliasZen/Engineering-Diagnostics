@@ -90,7 +90,7 @@ input:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 78, 134, 0.8)), to(rgba(10, 65, 104, 0.8)));
   background: -o-linear-gradient(top, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
   background:    linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
-  background: url(/assets/img/sean-pollock-203658-unsplash.jpg) no-repeat;
+  background: url(../img/sean-pollock-203658-unsplash.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -370,7 +370,7 @@ input:focus {
   height: 220px;
   margin-top: 3rem;
 
-  background-image: url(/assets/icons/stamp+\ 2.svg);
+  background-image: url(../icons/stamp+\ 2.svg);
 }
 .header-bot__video .video-img {
   position: absolute;
@@ -492,7 +492,7 @@ input:focus {
   padding-top: 4.75rem;
   padding-bottom: 5rem;
 
-  background: url(/assets/img/patrick-tomasso-89367-unsplash.png) no-repeat;
+  background: url(../img/patrick-tomasso-89367-unsplash.png) no-repeat;
   background-position: center center;
   background-size: cover;
 }
